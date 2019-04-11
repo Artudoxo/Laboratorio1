@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Laboratorio 1</string>
+    <string name="boton">Sumar los numeros</string>
+    <string name="txt1">Introduzca el primer numero.</string>
+    <string name="txt2">Introduzca el segundo numero.</string>
+    <string name="resultado">¿Cual sera el resultado?</string>
 </resources>
