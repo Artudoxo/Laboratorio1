@@ -11,20 +11,24 @@
         android:orientation="vertical">
         <EditText
             android:id="@+id/txt1"
+            android:inputType="number"
+            android:digits="@string/numbers"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/txt1"
             android:drawableLeft="@drawable/ic_filter_1"/>
 
         <EditText
+            android:inputType="number"
             android:id="@+id/txt2"
-
+            android:digits="@string/numbers"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/txt2"
             android:drawableLeft="@drawable/ic_filter_2"/>
 
         <TextView
+            android:id="@+id/resultado"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/resultado"
@@ -32,6 +36,7 @@
             android:gravity="center"/>
 
         <Button
+            android:id="@+id/btncalcular"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/boton"
