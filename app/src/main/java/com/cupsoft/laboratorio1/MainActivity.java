@@ -29,7 +29,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         int valor1 = Integer.parseInt(txt1.getText().toString());
         int valor2 = Integer.parseInt(txt2.getText().toString());
         int res = valor1 + valor2;
-
         resultado.setText("La suma es: " + res);
     }
 }

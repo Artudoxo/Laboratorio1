@@ -9,12 +9,20 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_gravity="center"
+            android:layout_margin="30dp"
+            android:src="@drawable/laboratorio"/>
         <EditText
             android:id="@+id/txt1"
             android:inputType="number"
             android:digits="@string/numbers"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
             android:hint="@string/txt1"
             android:drawableLeft="@drawable/ic_filter_1"/>
 
@@ -24,6 +32,7 @@
             android:digits="@string/numbers"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
             android:hint="@string/txt2"
             android:drawableLeft="@drawable/ic_filter_2"/>
 
