@@ -5,4 +5,7 @@
     <string name="txt2">Introduzca el segundo numero.</string>
     <string name="resultado">¿Cual sera el resultado?</string>
     <string name="numbers">0123456789</string>
+    <string name="resta">Restar</string>
+    <string name="multiplica">Multiplicar</string>
+    <string name="dividir">Dividir</string>
 </resources>

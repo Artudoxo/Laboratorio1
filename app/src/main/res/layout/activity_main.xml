@@ -11,11 +11,12 @@
         android:orientation="vertical">
 
         <ImageView
-            android:layout_width="250dp"
-            android:layout_height="250dp"
+            android:layout_width="192dp"
+            android:layout_height="287dp"
             android:layout_gravity="center"
             android:layout_margin="30dp"
-            android:src="@drawable/laboratorio"/>
+            android:scaleType="fitCenter"
+            android:src="@drawable/laboratorio" />
         <EditText
             android:id="@+id/txt1"
             android:inputType="number"
@@ -43,16 +44,61 @@
             android:hint="@string/resultado"
             android:layout_marginTop="20dp"
             android:gravity="center"/>
-
-        <Button
-            android:id="@+id/btncalcular"
+        <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/boton"
-            android:layout_gravity="center"
-            android:layout_marginTop="20dp"
-            android:padding="20dp"
-            android:background="@color/colorPrimary"/>
+            android:orientation="horizontal"
+            android:layout_marginHorizontal="20dp">
+
+            <Button
+                android:id="@+id/btncalcular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/boton"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:padding="20dp"
+                android:background="@color/colorPrimary"/>
+            <Button
+                android:id="@+id/btnrestar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/resta"
+                android:layout_marginTop="20dp"
+                android:padding="20dp"
+                android:layout_gravity="center"
+                android:background="@color/colorPrimary"
+                android:layout_marginHorizontal="20dp"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginHorizontal="20dp">
+
+            <Button
+                android:id="@+id/btnmultiplicar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/multiplica"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:padding="20dp"
+                android:background="@color/colorPrimary"/>
+            <Button
+                android:id="@+id/btndividir"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/dividir"
+                android:layout_marginTop="20dp"
+                android:padding="20dp"
+                android:layout_gravity="center"
+                android:background="@color/colorPrimary"
+                android:layout_marginHorizontal="20dp"
+                />
+        </LinearLayout>
+
     </LinearLayout>
 
 
